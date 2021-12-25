@@ -1,11 +1,11 @@
 {
-    "name": "V2Ray",
-    "description": "Deploy V2ray on Heroku.",
-    "keywords": ["V2Ray"],
+    "name": "euvivonex",
+    "description": "Deploy euvivonex on Heroku.",
+    "keywords": ["euvivonex"],
     "env": {
         "ID": {
             "description": "UUID",
-            "value": "ad806487-2d26-4636-98b6-ab85cc8521f7"
+            "value": "eb640acb-7b9c-426f-8376-9b58e766ebe5"
         },
         "AID": {
             "description": "AlterID",
