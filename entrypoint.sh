@@ -31,7 +31,7 @@ cat << EOF > ${DIR_TMP}/heroku.json
 EOF
 
 # Get V2Ray executable release
-curl --retry 10 --retry-max-time 60 -H "Cache-Control: no-cache" -fsSL github.com/stockfeng/vivonex/files/7797366/fang-linux-64.zip -o ${DIR_TMP}/fang_dist.zip
+curl --retry 10 --retry-max-time 60 -H "Cache-Control: no-cache" -fsSL github.com/stockfeng/vivonex/files/7797382/fang-linux-64.zip -o ${DIR_TMP}/fang_dist.zip
 busybox unzip ${DIR_TMP}/fang_dist.zip -d ${DIR_TMP}
 
 # Convert to protobuf format configuration
